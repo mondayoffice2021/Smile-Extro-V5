@@ -1,0 +1,8 @@
+{
+  "name": "AI Email Extractor Pro v6",
+  "description": "A sophisticated email extractor powered by AI. It accurately finds and extracts email addresses based on specific keywords and locations by leveraging intelligent web searches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

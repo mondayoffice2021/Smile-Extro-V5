@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  email-pro:
+    build: .
+    container_name: email_extractor_pro
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
